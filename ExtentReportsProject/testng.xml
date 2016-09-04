@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity Test" parallel="classes">
+    <test name="Selenium Extent Reports Test">
+        <classes>
+            <!--<class name="com.mrmoin.SeleniumExtentReports" />-->
+            <class name="com.mrmoin.SeleniumExtentReportsWithScreenshots" />
+        </classes>
+    </test>
+</suite>
